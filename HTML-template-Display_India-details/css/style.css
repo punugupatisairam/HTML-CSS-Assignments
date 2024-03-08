@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    /* background-color: lightsteelblue; */
+}
+.navbarh{
+    display: flex;
+    list-style-type: none;
+    background-color:black;
+    height:53px;
+    width:100%;
+    position: fixed;
+    top:0px;   
+     
+}
+.print{
+    color: white;
+    margin: 0 57%;
+    padding: 5px;
+    margin-top: 12px;
+    text-transform: uppercase;    
+}
+.headerh{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.navbarh a{
+    color: white; 
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 5px;
+    text-decoration: none;
+}
+
+.navbarh a:hover{
+    background-color:lightslategray;
+    padding: 20px;
+    height: 53px;  
+    border-radius: 25px; 
+} 
+.navbarh a.print:hover{
+    background-color:lightslategray;
+    padding: 17px;
+    height: 53px;  
+    border-radius: 25px; 
+}
+h1{
+    border: 5px ; 
+    background-color: lightcyan; 
+    color:blue;
+    padding: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.countries{
+    display: flex;
+    justify-content: space-between;
+    border: 5px;
+    width: 100%;
+    /* height: 100%; */
+    /* margin-top: 30px; */
+}
+.india{
+    display: flex;
+    justify-content: space-between;
+    border: 5px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+.telangana{
+    display: flex;
+    justify-content: space-between;
+    border: 5px;
+    width: 100%;
+    height: 100%;
+}
+.mainh{
+    background-color: lemonchiffon; color: blueviolet;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+}
+.para{
+    padding-top: 40px;
+    padding-left: 0px;
+    padding-right: 30px;
+    width: 70%;
+    text-align: justify;
+    font-family: 'Lucida Sans';
+}
+.parat{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 50%;
+    text-align: justify;
+    font-family: 'Lucida Sans';
+
+
+}.paraw{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 50%;
+    text-align: justify;
+    font-family: 'Lucida Sans';
+
+
+}
+.images{
+    
+    padding: 10px;
+    margin-top: 30px;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.imagesi{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:30px;
+    margin-top: 0px;
+}
+
+.imagew{
+    height: 400px;
+    width: 650px;
+
+}
+.imagei{
+    padding-left: 0px;
+    height: 550px;
+    width: 600px;
+
+}.imaget{
+    padding-right: 0px;
+    height: 550px;
+    width: 650px;
+
+}
+.but{
+    font-size: 15px;
+    margin-left: 250px;
+    
+}
+.icond{
+    size: 15px;
+    margin-top: 5px;
+}
+.aw{
+    margin-left: 80px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: brown;
+}
+.at{
+    margin-left: 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: brown;
+}
+.ai{
+    padding-top:40px;
+    padding-bottom: 0px;
+    padding-left: 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: brown;
+}
+
+
+
+
+
+

@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: lightyellow;
+
+}
+.navbar li{
+    display: inline;
+    width: 100%;
+    padding: 1em;
+    text-transform:uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 30px;
+    color: deeppink;
+
+}
+.navbar{
+    background-color: aqua;
+    height: 48px;
+    padding: 12px;
+    
+   
+}
+.right{
+    
+    margin-left: 55%;
+
+}
+.navbar li:hover{
+    background-color: lightcoral;
+    transition: .50s;
+}
+.right:hover{
+    background-color: red;
+}
+.mainpos div{
+    display: inline-block;
+
+
+}
+.mainpos{
+    position: relative;
+    top: 120px;
+}
+
+h1{
+    margin: 150px;
+    margin-top: 80px;
+    color: blueviolet;
+    text-align: center;
+    font-size: 80px;
+}  
+ .firstpos{
+    width: 400px;
+    height: 400px;
+    background-color: lightpink;
+    position: relative;
+    left: 70px;
+    bottom: 160px;
+
+}
+.sta{
+    padding: 10px;
+    margin: 20px;
+    background-color: cadetblue;
+}
+.secondpos{
+    width: 400px;
+    height: 400px;
+    background-color: lightpink;
+    position: absolute;
+    left: 70px;
+    top: 660px;
+}
+.rel{
+    padding: 10px;
+    margin: 20px;
+    background-color: cadetblue;
+}
+.thirdpos{
+    width: 450px;
+    height: 375px;
+    background-color: lightpink;
+    position: relative;
+    left: 80px;
+    top: 300px;
+}
+.abs{
+    padding: 10px;
+    margin: 20px;
+    background-color: cadetblue;
+}
+.fourthpos{
+    width: 400px;
+    height: 400px;
+    background-color: lightpink;
+    position: relative;
+    left: 85px;
+    bottom: 145px;
+}
+.fix{
+    padding: 10px;
+    margin: 20px;
+    background-color: cadetblue;
+}
+.fifthpos{
+    width: 400px;
+    height: 400px;
+    background-color: lightpink;
+    position: absolute;
+    right: 60px;
+    top: 660px;
+    bottom: 20px;
+    
+}
+.sti{
+    padding: 10px;
+    margin: 20px;
+    background-color: cadetblue;
+    
+}
+.gap{
+    height: 50px;
+    
+}
+a{
+
+    text-decoration: none;
+}

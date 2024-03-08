@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positions</title>
+    <link rel="stylesheet" href="stylings.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+           <li> <a href="https://miro.medium.com/v2/resize:fit:1400/1*okCqi5tE4A9STOBblTnUQA.png">Static </a></li>
+           <li> <a href="https://miro.medium.com/v2/resize:fit:1400/1*K_3ayK5x3-SK1XL648I7Ow.png">Relative </a></li>
+           <li> <a href="https://miro.medium.com/v2/resize:fit:1400/1*B5Pyz5CZ7EvAvW7UzJ9wjQ.png"> Absalute </a></li>
+           <li> <a href="https://www.freecodecamp.org/news/content/images/2021/06/Frame-16--1-.png">fixed</a></li>
+           <li> <a href="https://i.ytimg.com/vi/q3BvoL1fif8/sddefault.jpg"> sticky </a></li>
+           <li class="right"> <a href="https://cdn.educba.com/academy/wp-content/uploads/2019/12/CSS-Position.jpg">About</a></li>
+            
+        </div>
+    </nav>
+    <h1>Positions in CSS</h1>
+  <div class="mainpos">
+    <div class="firstpos">
+        <div class="sta"><b>Static:-</b>
+            <p>In CSS, static is the default position for HTML elements. It positions an element based on the normal flow of the page. 
+                Static elements are not affected by the top, right, bottom, or left properties. Z-index also does not apply to static elements. 
+               If you don't mention the method of positioning for any element, the element has the position: static method by default. Any element that has its position value altered to anything other than static will show over those that are set to static.</p>
+        </div>
+    </div>
+    <div class="secondpos">
+        <div class="rel"><b>Relative:-</b>
+            <p>In CSS, the position: relative property changes the position of an element relative to its parent element. It also changes the position relative to itself and where it would usually be in the page's regular document flow. 
+                The position: relative property can be applied to any section. This positions the elements in that section in the normal flow of the document. 
+                Setting the top, right, bottom, and left properties of an element with position: relative will cause it to adjust away from its normal position. Other content will not be adjusted to fit into any gap left by the element. 
+                The default value for position is set to static. Any element that has its position value altered to anything other than static will show over those that are set to static.</p>
+        </div>
+    </div>
+    <div class="thirdpos">
+        <div class="abs"><b>Absalute:-</b>
+            <p>absolute. The element is removed from the normal document flow, and no space is created for the element in the page layout. The element is positioned relative to its closest positioned ancestor (if any) or to the initial containing block Elements that are relatively positioned remain in the normal flow of the document. In contrast, an element that is absolutely positioned is taken out of the flow; thus, other elements are positioned as if it did not exist. The absolutely positioned element is positioned relative to its nearest positioned ancestor (i.e., the nearest ancestor that is not static). If a positioned ancestor doesn't exist, it is positioned relative to the ICB (initial containing block — see also the W3C definition), which is the containing block of the document's root element.</p>
+        </div>
+    </div>
+    <div class="fourthpos">
+        <div class="fix"><b>Fixed:-</b>
+            <p>In CSS, fixed positioning is a specialized form of absolute positioning. It positions elements relative to the browser window, rather than the containing element. This means that elements with fixed positioning remain in the same position even when the page is scrolled. 
+                The position property is used to align elements at a desired location. The fixed position sticks to a specific location and remains unaffected by page minimization, maximization, or scrolling. The top, right, bottom, and left properties are used to position the element.</p>
+        </div>
+    </div>
+        <div class="fifthpos">
+            <div class="sti"><b>Sticky:-</b>
+                <p>In CSS, the position: sticky property positions an element based on the user's scroll position. This allows elements to stick in place when the scroll reaches a certain point. 
+                    A sticky element toggles between relative and fixed depending on the scroll position. It is positioned relative until it reaches a given offset position in the viewport. At that point, it "sticks" in place until it reaches the boundary of its parent element.</p>
+            </div>
+</div>
+<div class="gap">
+    </div>
+</div>
+<script>
+    var a=10;
+    var b=20;
+    console.log( a+"*"+b+"="+(a*b));
+</script>
+</body>
+</html>
